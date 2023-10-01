@@ -5,8 +5,7 @@
 .hero {
   background-image: url('');
   background-color: #d4e9e2;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
 }
