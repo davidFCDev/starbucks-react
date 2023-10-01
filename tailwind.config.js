@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "sb-green": "#008248",
+        "sb-green2": "#008230",
         "sb-dark-green": "#1e3932",
         "sb-light-green": "#d4e9e2",
         "sb-gray": "#f3f1e7",

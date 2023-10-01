@@ -9,9 +9,9 @@ const Navbar = () => {
           alt="starbucks rewards logo"
           width={50}
         />
-        <h4>MENU</h4>
-        <h4>REWARDS</h4>
-        <h4>GIFT CARDS</h4>
+        <a href="#" className="hover:text-sb-green">MENU</a>
+        <a href="#" className="hover:text-sb-green">REWARDS</a>
+        <a href="#" className="hover:text-sb-green">GIFT CARDS</a>
       </div>
       <div className="flex gap-16 items-center font-semibold text-sm">
         <h4 className="flex gap-2 items-center">
