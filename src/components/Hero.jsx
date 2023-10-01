@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <main className="flex">
-      <div className="hero flex items-center justify-between px-10 pt-20">
+      <div className="hero flex items-center justify-between px-10 pt-48">
         <div className="text-left py-5 w-[350px] flex flex-col gap-6 items-start text-lg font-semibold">
           <h2 className="text-4xl tracking-wide font-semibold leading-snug w-[260px]">
             FREE COFFEE IS A TAP AWAY
