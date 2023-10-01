@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .hero {
-  background-image: url('');
   background-color: #d4e9e2;
   background-size: contain;
   background-repeat: no-repeat;
