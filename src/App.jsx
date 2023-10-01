@@ -9,10 +9,11 @@ import Rewards from "./components/Rewards";
 import Footer from "./components/Footer";
 
 function App() {
+  
   return (
     <div>
       <Navbar />
-      <StickyNav />
+      <StickyNav/>
       <Hero />
       <Start />
       <Prices />

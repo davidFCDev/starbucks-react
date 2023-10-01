@@ -14,10 +14,10 @@ const Navbar = () => {
         <a href="#" className="hover:text-sb-green">GIFT CARDS</a>
       </div>
       <div className="flex gap-16 items-center font-semibold text-sm">
-        <h4 className="flex gap-2 items-center">
+        <a href="#" className="flex gap-2 items-center hover:text-sb-green">
           <MdLocationOn />
           Find a Store
-        </h4>
+        </a>
         <div className="flex gap-4">
           <a
             href="https://www.starbucks.com/account/signin"
