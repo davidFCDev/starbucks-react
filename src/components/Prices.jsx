@@ -2,7 +2,7 @@ import { useState } from "react";
 import { PRICE_LIST } from "../constants";
 
 const Prices = () => {
-  const [selectedPriceIndex, setSelectedPriceIndex] = useState(null);
+  const [selectedPriceIndex, setSelectedPriceIndex] = useState(0);
 
   const handlePriceClick = (index) => {
     setSelectedPriceIndex(index);
