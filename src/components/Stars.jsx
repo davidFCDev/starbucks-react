@@ -15,7 +15,7 @@ const Stars = () => {
             <h3 className="font-bold text-2xl flex items-center gap-1">1<span className="text-lg">★</span>  per dollar</h3>
             <p>Pay as you go</p>
           </div>
-          <div className="flex gap-5 items-start pl-8">
+          <div className="flex gap-5 items-start pl-6">
             <img
               src="https://www.starbucks.ca/weblx/images/rewards/ways-to-pay/1A.png"
               alt=""
