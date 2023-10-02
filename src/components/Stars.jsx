@@ -12,7 +12,7 @@ const Stars = () => {
 
         <div className="flex gap-24 text-left justify-start w-full">
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-2xl">1* per dollar</h3>
+            <h3 className="font-bold text-2xl flex items-center gap-1">1<span className="text-lg">★</span>  per dollar</h3>
             <p>Pay as you go</p>
           </div>
           <div className="flex gap-5 items-start pl-8">
@@ -47,7 +47,7 @@ const Stars = () => {
       <div className="bg-sb-gray flex flex-col px-10 py-14 text-center gap-20 text-lg w-full items-center font-semibold">
         <div className="flex gap-24 text-left justify-start w-full">
           <div className="flex flex-col gap-2">
-            <h3 className="font-bold text-2xl">2* per dollar</h3>
+            <h3 className="font-bold text-2xl flex items-center gap-1">2<span className="text-lg">★</span> per dollar</h3>
             <p>Add funds in the app</p>
           </div>
           <div className="flex gap-5 items-start">
