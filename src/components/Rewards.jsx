@@ -10,8 +10,8 @@ const Rewards = () => {
         </p>
       </div>
 
-      <footer className="flex bg-sb-palid-green w-full p-5">
-        <div className="flex flex-col gap-4 w-[50%] p-2 justify-center ">
+      <footer className="flex bg-sb-gray2 w-full px-5 py-10 text-sm">
+        <div className="flex flex-col gap-4 w-[50%] p-5 justify-center ">
           <p>At participating stores. Restrictions apply.</p>
           <h3 className="font-semibold">EARNING STARS</h3>
           <p>
@@ -39,8 +39,26 @@ const Rewards = () => {
             Star-earning transaction.
           </p>
         </div>
-        <div>
-          
+
+        <div className="flex flex-col w-[50%] p-5 justify-between">
+          <div className="flex flex-col gap-4">
+            <h3 className="font-semibold">TERMS OF USE</h3>
+            <p>
+              For full program details visit{" "}
+              <span className="underline hover:no-underline">
+                starbucks.com/rewards/terms
+              </span>
+              .
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h3 className="font-semibold">REDEEMING REWARDS</h3>
+            <p>
+              Rewards cannot be redeemed for alcoholic beverages or multi-serve
+              items. Not all stores honor tiered Rewards. Select stores redeem
+              150 Stars for free food or drink items only.
+            </p>
+          </div>
         </div>
       </footer>
     </div>

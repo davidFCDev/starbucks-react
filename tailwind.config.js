@@ -10,6 +10,7 @@ export default {
         "sb-light-green": "#d4e9e2",
         "sb-gray": "#f3f1e7",
         "sb-palid-green": "#f1f8f6",
+        "sb-gray2": "#F9F9F9",
       },
     },
   },
