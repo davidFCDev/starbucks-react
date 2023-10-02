@@ -8,3 +8,7 @@
   background-repeat: no-repeat;
   width: 100%;
 }
+
+.fade {
+  transition: opacity 0.5s ease-in-out; /* Define la duración y el tipo de transición que desees */
+}
