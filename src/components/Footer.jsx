@@ -1,4 +1,5 @@
-import React from "react";
+import { BiLogoFacebook, BiLogoTwitter } from "react-icons/bi";
+import { FiInstagram } from "react-icons/fi";
 
 const Footer = () => {
   return (
@@ -40,8 +41,33 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex py-10">
-
+      <div className="flex flex-col gap-6 pt-10 pb-32">
+        <div className="flex gap-4">
+          <div className="bg-black rounded-full p-1 hover:shadow-md hover:cursor-pointer hover:shadow-gray-700">
+            <BiLogoFacebook className="h-6 w-6 text-white" />
+          </div>
+          <div className="bg-black rounded-full p-1 hover:shadow-md hover:cursor-pointer hover:shadow-gray-700">
+            <FiInstagram className="h-6 w-6 text-white" />
+          </div>
+          <div className="bg-black rounded-full p-1 hover:shadow-md hover:cursor-pointer hover:shadow-gray-700">
+            <BiLogoTwitter className="h-6 w-6 text-white" />
+          </div>
+        </div>
+        <div className="flex gap-5 font-semibold">
+          <p className="hover:underline cursor-pointer">Privacy Statement</p>
+          <p>|</p>
+          <p className="hover:underline cursor-pointer">Terms of Use</p>
+          <p>|</p>
+          <p className="hover:underline cursor-pointer">
+            Do Not Share My Personal Information
+          </p>
+          <p>|</p>
+          <p className="hover:underline cursor-pointer">Partners</p>
+        </div>
+        <h3 className="font-semibold text-sb-green cursor-pointer">
+          Passer au site français
+        </h3>
+        <p>© 2023 Starbucks Coffee Company. All rights reserved.</p>
       </div>
     </main>
   );
